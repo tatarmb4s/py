@@ -1,8 +1,8 @@
 from turtle import *
 from math import sqrt
 
-wn = Screen()
 t = Turtle()
+t.speed(20)
 
 t.pensize(3)
 t.penup()
@@ -71,4 +71,4 @@ t.forward(HszB)
 
 t.end_fill()
 
-wn.mainloop()
+done()
